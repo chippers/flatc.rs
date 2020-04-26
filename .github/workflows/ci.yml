@@ -13,7 +13,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        build: [stable, beta, nightly, macos, win-msvc, win-gnu]
+        build: [stable, beta, nightly, macos,win-gnu]
         include:
           - build: stable
             os: ubuntu-18.04
@@ -26,9 +26,6 @@ jobs:
             rust: nightly
           - build: macos
             os: macOS-10.14
-            rust: stable
-          - build: win-msvc
-            os: windows-2019
             rust: stable
           - build: win-gnu
             os: windows-2019
