@@ -2,8 +2,9 @@
 name = "flatc"
 version = "0.1.1+1.12.0"
 authors = ["chip <chip@chip.sh>"]
-description = "Vendored executable of flatbuffer's `flatc`"
+description = "Vendored executable of flatbuffer's `flatc`."
 repository = "https://github.com/chippers/flatc.rs"
+readme = "README.md"
 license = "MIT"
 keywords = ["flatbuffers"]
 edition = "2018"
