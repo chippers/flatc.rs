@@ -4,7 +4,5 @@ pub fn flatc() -> &'static std::path::Path {
 
 #[test]
 fn flatc_exists() {
-    let p = flatc();
-    println!("{:#?}", p);
-    assert!(p.exists())
+    assert!(flatc().exists())
 }
