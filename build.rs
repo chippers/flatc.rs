@@ -1,3 +1,3 @@
 fn main() {
-    cmake::build("vendor");
+    cmake::build("flatbuffers");
 }
