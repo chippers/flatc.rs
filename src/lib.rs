@@ -8,7 +8,11 @@
 
 /// Path of the built `flatc` executable.
 pub fn flatc() -> &'static std::path::Path {
-    std::path::Path::new(concat!(env!("OUT_DIR"), "/bin/flatc"))
+    if cfg!(windows) {
+        std::path::Path::new(concat!(env!("OUT_DIR"), "\\bin\\flatc.exe"))
+    } else {
+        std::path::Path::new(concat!(env!("OUT_DIR"), "/bin/flatc"))
+    }
 }
 
 #[test]
