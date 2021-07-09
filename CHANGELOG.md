@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.0+1.12.0](https://github.com/chippers/flatc.rs/commit/9b8be15833e3e183b7b7891adf6332c7c1ebd454)
+## [0.2.0+1.12.0](https://github.com/chippers/flatc.rs/commit/6c749ffed6020e602a155153fbdeddd4b5811392)
 ### Added
     * Windows support. (untested as I cannot compile flatbuffers `1.12.0` with gcc 11.1.0)
 
