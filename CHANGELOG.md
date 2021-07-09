@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.0+2.0.0](https://github.com/chippers/flatc.rs/commit/bcbd0ca3fa8aa0696aae7df8ed84185782389231)
+## [0.2.0+2.0.0](https://github.com/chippers/flatc.rs/commit/d04c3937751d33144687209d06f4bfa40e80fd38)
 
 Flatbuffers `v1` will not be updating going forward, as `v2` only marks the start of a semver naming scheme and not a
 significant release (although it still has breaking changes like the `v1` releases).
