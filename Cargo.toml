@@ -1,6 +1,6 @@
 [package]
 name = "flatc"
-version = "0.2.1+2.0.0"
+version = "0.2.1+23.5.9"
 authors = ["chip <chip@chip.sh>"]
 description = "Vendored executable of flatbuffer's `flatc`."
 documentation = "https://docs.rs/flatc"
